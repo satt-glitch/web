@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDUL FITRI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="particles-js">
+        <div class="asset-masjid"></div>
+    <div class="header"><h2>Selamat Hari Raya Idul Fitri 1446H <br><span>Minal'Aidin Wal-Faizin</span></h2></div>
+    
+</section>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<audio id="backsound" loop>
+    <source src="asset/Malam takbiran jaman dulu th 80_90han sedih teringat masa kecil - OCHAN OFFICIAL 148.mp3" type="audio/mpeg">
+
+</audio>
+
+<script>
+    document.addEventListener("click", function() {
+        let audio = document.getElementById("backsound");
+        if (audio.paused) {
+            audio.play();
+        }
+    });
+</script>
+
+   
+</body>
+</html>
